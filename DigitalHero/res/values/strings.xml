@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DigitalHero</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="name">Name</string>
+    <string name="attack">Attack</string>
+    <string name="defense">Defense</string>
+    <string name="max_hp">Max HP</string>
+    <string name="new_hero">New Hero</string>
+    <string name="new_item">New Item</string>
+
+</resources>

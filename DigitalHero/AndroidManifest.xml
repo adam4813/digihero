@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="me.awardsunlocked.digihero"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="10" />
+    <application android:allowBackup="false">
+        <activity android:name="EditorActivity" android:label="@string/app_name" android:icon="@drawable/ic_launcher">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="HeroEditorActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.TAB"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="ItemEditorActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.TAB"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
